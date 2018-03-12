@@ -16,7 +16,7 @@
    <rowConstraints>
       <RowConstraints />
       <RowConstraints />
-   </rowConstraints>
+</rowConstraints>
    <children>
       <LineChart GridPane.rowIndex="1">
         <xAxis>

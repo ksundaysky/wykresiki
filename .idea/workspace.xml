@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAZA2.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BAZA22.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/BAZA2.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Wykresiki/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/Wykresiki/sample/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,12 +65,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="336">
+              <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4723#4724#0" expanded="true" />
-                <element signature="e#4751#4752#0" expanded="true" />
+                <element signature="e#6784#6785#0" expanded="true" />
+                <element signature="e#6812#6813#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,6 +136,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>stage</find>
+      <find>array</find>
+      <find>setani</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -474,12 +473,12 @@
       <workItem from="1520337839736" duration="315000" />
       <workItem from="1520338450658" duration="3831000" />
       <workItem from="1520792939202" duration="986000" />
-      <workItem from="1520852472577" duration="8733000" />
+      <workItem from="1520852472577" duration="18304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15167000" />
+    <option name="totallyTimeSpent" value="24738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -544,8 +543,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
+            <element signature="e#6784#6785#0" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,8 +592,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
+            <element signature="e#6784#6785#0" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -642,8 +641,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
+            <element signature="e#6784#6785#0" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -673,8 +672,8 @@
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
+            <element signature="e#6784#6785#0" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -817,14 +816,19 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saved.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="61" column="38" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="38" />
+        <state relative-caret-position="336">
+          <caret line="187" column="5" lean-forward="true" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4723#4724#0" expanded="true" />
-            <element signature="e#4751#4752#0" expanded="true" />
+            <element signature="e#6784#6785#0" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
           </folding>
         </state>
       </provider>

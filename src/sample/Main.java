@@ -49,7 +49,7 @@ public class Main extends Application {
     public List<Float> Y;
     public List<Float> Parameters;
 
-    public static int s = 100;
+    public static int s = 600;
 
     public ArrayList<XYChart.Series> array;
 
@@ -103,11 +103,14 @@ public class Main extends Application {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        LogarithmicAxis xAxis = new LogarithmicAxis("Domain",0.1d,100d);
-        LogarithmicAxis yAxis = new LogarithmicAxis("Range",0.1d,10000d);
+        LogarithmicAxis xAxis = new LogarithmicAxis("L/d",0.1d,100d);
+        LogarithmicAxis yAxis = new LogarithmicAxis("Ra/Rm",0.1d,10000d);
 
 
-        System.out.println(Parameters);
+        for(int i =0;i<Parameters.size();i+=3) {
+
+            System.out.println(Parameters.get(i));
+        }
         chart = new LineChart(xAxis,yAxis);
         chart.setAnimated(false);
 
@@ -161,8 +164,8 @@ public class Main extends Application {
         });
 
 
-        label = new Label("D/d: "+Parameters.get(3*s)+" Ri/Rm: "+Parameters.get(3*s+1) + " Rt/Rm: "+Parameters.get(3*s+2) );
-        
+        label = new Label("D/d: "+Parameters.get(3*38*s)+" Ri/Rm: "+Parameters.get(3*38*s+1));
+
         label.setTranslateX(150);
 
         StackPane spButton = new StackPane();
@@ -248,7 +251,8 @@ public class Main extends Application {
                 }
             }
 
-            label.setText("D/d: "+Parameters.get(3*s)+" Ri/Rm: "+Parameters.get(3*s+1) + " Rt/Rm: "+Parameters.get(3*s+2));
+           // System.out.println(Parameters.get(3*s));
+            label.setText("D/d: "+Parameters.get(3*38*s)+" Ri/Rm: "+Parameters.get(3*38*s+1));
         }
 
 
